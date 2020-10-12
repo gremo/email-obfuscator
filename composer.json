@@ -1,0 +1,32 @@
+{
+  "name": "gremo/email-obfuscator",
+  "description": "A text filter for automatic email obfuscation using  Javascript or CSS fallback",
+  "keywords": [
+    "laravel",
+    "twig",
+    "email",
+    "obfuscation",
+    "spam",
+    "antispam"
+  ],
+  "homepage": "http://github.com/gremo/email-obfuscator",
+  "license": "MIT",
+  "authors": [
+    {
+        "name": "Marco Polichetti",
+        "homepage": "http://github.com/gremo",
+        "email": "gremo1982@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gremo\\EmailObfuscator\\": "src/"
+    },
+    "files": [
+      "src/Obfuscator.php"
+    ]
+  }
+}
